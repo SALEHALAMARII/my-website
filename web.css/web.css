@@ -1,0 +1,115 @@
+*{margin: 0;padding: 0; font-family:'josefin sans' , sans-serif;}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+    list-style: none;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color: gold;
+}
+.logo{
+    color: white;
+    font-size: 45px;
+}
+span{
+    color: gold;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.content .img img{
+    width: 600px;
+    border-radius: 500px;
+
+}
+.content .text{
+    width: 100%;
+    line-height: 64px;
+    color: white;
+}
+.content .text h4{
+    font-size: 23px;
+    color: #fcfc;
+    letter-spacing: 2px;
+}
+.content .text h1{
+    font-size: 75px;
+    letter-spacing: 1px;
+}
+.content .text h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.content .img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:  100px;
+    right: 30px;
+}
+.f-logo{
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s;
+    width: 35px;
+    margin-bottom: 1350px;
+}
+.f-logo:hover{
+    width: 45px;
+}
+.i-logo{
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s;
+    width: 35px;
+    margin-left: 18px;
+    margin-bottom: 1350px;
+}
+.i-logo:hover{
+    width: 45px;
+
+}
+.w-logo{
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s;
+    width: 35px;
+    margin-left: 18px;
+    margin-bottom: 1350px;
+}
+.w-logo:hover{
+    width: 45px;
+
+}
+
+.e-logo{
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s;
+    width: 35px;
+    margin-left: 18px;
+    margin-bottom: 1350px;
+}.e-logo:hover{
+    width: 45px;
+
+}
